@@ -38,5 +38,6 @@ def quick_sort(list, start, end):
         index = sort(list,start,end)
         quick_sort(list,start,index)
         quick_sort(list,index+1,end)
+
 quick_sort(list,0,len(list)-1)
 print(list)
