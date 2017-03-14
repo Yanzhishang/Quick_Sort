@@ -41,3 +41,11 @@ def quick_sort(list, start, end):
 
 quick_sort(list,0,len(list)-1)
 print(list)
+
+
+
+
+#时间复杂度：O(nlog n)
+#空间复杂度：0(logn)
+#要为递归提供所需的辅助空间 
+
